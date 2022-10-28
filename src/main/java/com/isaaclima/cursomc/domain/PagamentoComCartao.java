@@ -17,4 +17,16 @@ public class PagamentoComCartao extends Pagamento{
         super(id, estado, pedido);
         this.numeroDeParcelas = numeroDeParcelas;
     }
+
+    public static long getSerialversionuid() {
+        return serialVersionUID;
+    }
+
+    public Integer getNumeroDeParcelas() {
+        return numeroDeParcelas;
+    }
+
+    public void setNumeroDeParcelas(Integer numeroDeParcelas) {
+        this.numeroDeParcelas = numeroDeParcelas;
+    }
 }
